@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bug-project';
+  showDiagram = false;
+
+  onToggleDiagram() {
+    console.warn("toggling!");
+    this.showDiagram = !this.showDiagram;
+  }
 }
