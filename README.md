@@ -18,3 +18,7 @@ If however you will:
 You will find that the DiagramComponent **is still in the memory** and is preventing the SynfusionDiagramComponent
 to be garbage collected.
 ![](syncfusionLeakBug2.png)
+
+
+Example of a similar bug in a grid component
+https://github.com/syncfusion/ej2-angular-ui-components/issues/21
