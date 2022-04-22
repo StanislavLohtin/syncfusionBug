@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SyncfusionDiagramComponent } from './syncfusion-diagram/syncfusion-diagram.component';
 import {DiagramModule} from "@syncfusion/ej2-angular-diagrams";
+import { NoLeakComponent } from './no-leak/no-leak.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SyncfusionDiagramComponent
+    SyncfusionDiagramComponent,
+    NoLeakComponent
   ],
   imports: [
     BrowserModule,

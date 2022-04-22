@@ -1,6 +1,9 @@
 <div class="content" role="main">
   <div>App component start</div>
-  <button (click)="onToggleDiagram()">toggle Diagram</button>
+  <button (click)="onToggleNoLeakComponent()">toggle Component without Memory Leak</button>
+  <app-no-leak *ngIf="showNoLeakComponent"></app-no-leak>
+  <hr/>
+  <button (click)="onToggleDiagram()">toggle Component with Memory Leak</button>
   <app-syncfusion-diagram *ngIf="showDiagram"></app-syncfusion-diagram>
   <div>App component end</div>
 </div>
